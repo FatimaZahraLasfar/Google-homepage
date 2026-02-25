@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+}
+/* Nav Bar Section */
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 10px ;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.navBar a {
+    color: #202124;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navBar a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.icon-wrapper:hover {
+    background-color: #f1f3f4;
+}
+
+.underline {
+    text-decoration: none;
+
+}
+/* Google Image Section */
+.imgGoogle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.imgGoogle img {
+    width: 280px;   
+    height: auto;
+}
+
+body {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #202124;
+}
+
+/* Center container */
+.search-wrapper {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Search bar */
+.search-bar {
+    width: 90%;
+    max-width: 720px;
+    height: 56px;
+    background: #ffffff; 
+    border: 1px solid #dfe1e5; 
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 12px;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+.search-bar input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #202124;
+    font-size: 16px;
+}
+
+.search-bar:hover{
+    border: #1a73e8 solid 1px;
+}
+/* Plus icon */
+.plus {
+    font-size: 22px;
+    color: #5f6368;
+    cursor: pointer;
+}
+
+/* Right actions */
+.search-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.search-actions img {
+    width: 20px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* Mode IA button */
+.ai-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #ffffff;
+    border: 1px solid #dadce0;
+    color: #202124;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.ai-btn img {
+    width: 16px;
+}
+.ai-btn:hover{
+    animation: aiButton 3s infinite;
+
+}
+@keyframes aiButton{
+    0% {
+        border: 2px solid red;
+    }
+    25% {
+        border: 2px solid blue;
+    }
+    50% {
+        border: 2px solid green;
+    }
+    75% {
+        border: 2px solid orange;
+    }
+    100% {
+        border: 2px solid red;
+    }
+}
+/* Buttons under search */
+.search-buttons {
+    margin-top: 28px;
+    display: flex;
+    gap: 12px;
+}
+
+.search-buttons button {
+    background: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #202124;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-buttons button:hover {
+    border-color: #dfe1e5;
+    background-color: #f1f3f4;
+}
+
+/* Language */
+.lang {
+    margin-top: 54px;
+    font-size: 13px;
+    color: #5f6368;
+}
+
+.lang a {
+    color: #1a73e8; 
+    text-decoration: none;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
+
+/* Google Footer */
+.google-footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #5f6368;
+    font-size: 14px;
+    margin-top: 200px;
+    box-shadow: inset 0 2px 0 #dadce0;
+    padding: 0px;
+}
+
+.footer-top {
+    padding-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: solid black 1px;
+    border-top: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.google-footer a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.google-footer a:hover {
+    color: #1a73e8;
+}
